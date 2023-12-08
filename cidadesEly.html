@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cidades</title>
+</head>
+<body>
+    <h1>Cidades pertencentes ao Estado de MG</h1>
+
+    <label for="nomeCidade">Nome da Cidade:</label>
+    <input type="text" id="nomeCidade"/>
+
+    <label for="habitantesCidade">Habitantes:</label>
+    <input type="number" id="habitantesCidade"/>
+
+    <label for="ruaCidade">Rua:</label>
+    <input type="text" id="ruaCidade"/>
+
+    <label for="bairroCidade">Bairro:</label>
+    <input type="text" id="bairroCidade"/>
+
+    <label for="cepCidade">Cep:</label>
+    <textarea id="cepCidade"></textarea>
+
+    <button type="button" onclick="inserirCurso()">Inserir Cidade</button>
+    <button type="button" onclick="listarCursos()">Listar Cidade</button>
+
+    <br>
+
+    <table border="1" width="100%" id="tabelaCidades"></table>
+
+    <script src="cidades.js"></script>
+</body>
+</html>
